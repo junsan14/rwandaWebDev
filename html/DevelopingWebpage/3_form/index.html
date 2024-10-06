@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tags</title>
+</head>
+<body>
+   <form >
+
+   <label for="name" >Name</label> <br/>
+        <input type="text" id="name" name="name" /> <br/><br/> 
+
+   <label for="password">Password: </label>  <br/>
+        <input type="password" id="password" name="password" /> <br/><br/>
+
+   <label for="email">Email: </label>  <br/>
+        <input type="email" id="email" name="email"/> <br/> <br/>
+
+   <label for="comments">Comments: </label>  <br/>
+        <textarea rows="2" cols="20" id="comments"></textarea> <br> <br> 
+
+   <label for="gender">Gender: </label> <br>  
+        <input type="radio" id="gender" name="gender" value="male"/>Male  
+        <input type="radio" id="gender" name="gender" value="female"/>Female <br/> <br> 
+
+   Language:<br>
+        <input type="checkbox" id="eng" name="eng" value="eng"/>  English  <br>
+        <input type="checkbox" id="fr" name="fr" value="fr"/>  French <br>  
+        <input type="checkbox" id="ksw" name="ksw" value="ksw"/>  Kiwahil <br>
+        <input type="checkbox" id="kiny" name="kiny" value="kiny"/>  Kinyarwanda <br><br>
+   Province:  <br />
+        <select name=" "  >  
+            <option value="north ">North</option>  
+            <option value="south">South</option>  
+            <option value="east">East</option>  
+            <option value="kigali">Kigali</option>    
+        </select><br /><br />
+    <fieldset>
+        <legend>User Information:</legend>
+        Enter name<br>
+        <input type="text" id="name" name="name"><br>
+        Enter Password<br>
+        <input type="password" id="password" name="password"><br>
+    </fieldset>
+    <input type="submit" value="submit">  
+    
+   </form>
+        
+</body>
+</html>
