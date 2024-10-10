@@ -1,0 +1,29 @@
+
+
+
+body{
+    font-size: 4vw;
+}
+ul{
+    list-style: none;
+}
+
+.header{
+    background: #eee;
+    padding:2px 0;
+    &_ul{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.main{
+    height: 100vh;
+    padding: 30px;
+}
+
+.footer{
+    text-align: center;
+    background: #eee;
+    
+}
